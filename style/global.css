@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "tajawal-regular";
+  src: url(../fonts/Tajawal/Tajawal-Regular.ttf);
+}
+
+@font-face {
+  font-family: "tajawal-black";
+  src: url(../fonts/Tajawal/Tajawal-Black.ttf);
+}
+
+@font-face {
+  font-family: "tajawal-bold";
+  src: url(../fonts/Tajawal/Tajawal-Bold.ttf);
+}
+
+@font-face {
+  font-family: "tajawal-extrabold";
+  src: url(../fonts/Tajawal/Tajawal-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "lato-regular";
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "lato-bold";
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: "lato-black";
+  src: url(../fonts/Lato/Lato-Black.ttf);
+}
+
+:root {
+  /* Fontes */
+  /* Tajawal */
+  --tajawal-regular: "tajawal-regular";
+  --tajawal-bold: "tajawal-bold";
+  --tajawal-extrabold: "tajawal-extrabold";
+  --tajawal-black: "tajawal-black";
+
+  /* Lato */
+  --lato-regular: "lato-regular";
+  --lato-bold: "lato-bold";
+  --lato-black: "lato-black";
+  /* Cores */
+  /* Menu */
+  --cor-txt-menu: #0d0d0d;
+  --cor-txt-menu-hover: #004077;
+  /* intro */
+  --cor-titulo-intro: #000;
+  --cor-titulo-intro-detalhe: #00223f;
+  --cor-subtitulo: #4d4d4d;
+  /* experiência */
+  --cor-titulo-exp: #e5f3ff;
+  --cor-txt-exp: #595959;
+  --cor-txt-exp-detalhe: #00223f;
+  --cor-titulo-subcaixa-exp: #fff;
+  --cor-titulo-caixa-exp: #000;
+  --cor-txt-caixa: #404040;
+  --cor-detalhe-caixa-exp: linear-gradient(to right, #3675a9, #083a64);
+  --cor-borda-caixa-exp: #d5d5d5;
+  --cor-bg-caixa-exp: #f2f2f2;
+  /* Formação */
+  --cor-bg-form: #0d0d0d;
+  --cor-titulo-form: #000;
+  --cor-txt-form: #b3b3b3;
+  --cor-txt-form-detalhe: #fff;
+  --cor-bg-caixa-form: #121212;
+  --cor-borda-caixa-form: #000;
+  --cor-titulo-caixa-form: #737373;
+  --cor-subtitulo-caixa-form: #737373;
+  --cor-txt-caixa-form: #fff;
+  --cor-detalhe-caixa-form: linear-gradient(to right, #3675a9, #083a64);
+  --cor-cursos-titulo-form: #737373;
+  --cor-cursos-texto-form: #e6e6e6;
+  --cor-cursos-subtexto-form: #595959;
+  /* footer */
+  --cor-bg-ftr: #000;
+  --cor-titulo-ftr: #fff;
+  --cor-txt-ftr: #8c8c8c;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}

@@ -1,0 +1,48 @@
+/* ********************************************************************* */
+/* header */
+header {
+  width: 100%;
+  max-width: 1160px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+header li a {
+  text-decoration: none;
+  color: var(--cor-txt-menu);
+  font-family: var(--tajawal-regular);
+  font-size: 18px;
+  padding: 15px;
+}
+header li a:hover {
+  color: var(--cor-txt-menu-hover);
+}
+@media (max-width: 1200px) {
+  header {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+  }
+  header > nav ul {
+    display: grid;
+    gap: 10px;
+  }
+
+  header li a {
+    padding: 5px 0;
+  }
+}
